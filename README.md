@@ -4,7 +4,7 @@ Backend radnjen u node.js-u uz upotrebu express framework-a.<br>
 Na projektu sam koristio relacionu bazu(SQL).<br>
 Servisiran je i front deo koji sluzi iskljucivo za administraciju sajta.<br><br>
 Projekat sadrzi tri servisa:<br>
-1.Rest Servis(Sve operacije sa bazom koje su od nas zahtevane,validacija i na backendu(Joi) i na fronntu...)<br>
+1.Rest Servis(Sve operacije sa bazom koje su od nas zahtevane,validacija i na backendu(Joi) i na fronntu...), rest service koristi i frontend za komercijalni deo pisan u vue.js koji se nalazai na drugom repo.<br>
 2.Autentifikacioni Servis(login, JWT...)<br>
 3.Aplikacioni servis(Servira html i komunicira sa rest-om)<br><br>
 
