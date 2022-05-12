@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Admin Panel</title>
+	<link rel="stylesheet" href="./css/korisnik.css">
+	<script src = "./js/stapoviDodaj.js"></script>
+</head>
+
+<body onload="init()">
+
+	<header>
+		<a href="#" class="logo">ADMIN PANEL</a>
+		<div class="menu-toggle"></div>
+
+		<nav>
+			<ul>
+				<li><a href="/admin/korisnici" >Korisnici</a></li>
+				<li><a href="/admin/stapovi">Stapovi</a></li>
+				<li><a href="/admin/akcije">Akcije</a></li>
+				<li><a href="/admin/blogovi">Blog</a></li>
+        <li id = "logOut"><a href = "#">Odjavi se</a></li>
+			</ul>
+		</nav>
+  
+	</header>
+	
+    <div id="formaZaPitanja">
+        
+        
+       
+            
+            <form id="formaZaLabel">
+  
+              <label for="firstName">Brend</label>
+              <input type="text" id="brand"  name="First Name"  />
+              <label for="lastName">Model</label>
+              <input type="text" id="model"  name="Last Name" />
+              <label for="email">Tip</label>
+              <input type="text" id="type"  name="Email"  />
+              <label for="username">Tezina</label>
+              <input type="text" id="weight"  name="Username" />
+              <label for="password">Cena</label>
+              <input type="text" id="price"  name="Password"  />
+              <label for="select"><select id="saleSelect">
+                <option selected disabled >Izaberite akciju:</option>
+             </select></label>
+              
+             <label for="submit"></label>
+              <button type="submit" class="btn btn-primary" id="addRod">Dodajte Stap</button>
+              
+              
+              
+            </form>
+        
+        
+          
+    
+        
+    
+    </div>
+	
+  
+</body></html>

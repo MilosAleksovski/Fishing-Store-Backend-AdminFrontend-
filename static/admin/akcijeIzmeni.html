@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Navbar10</title>
+	<link rel="stylesheet" href="./css/korisnik.css">
+	<script src="./js/akcijeIzmeni.js"></script>
+    
+</head>
+
+<body onload="init()">
+
+	<header>
+		<a href="#" class="logo">ADMIN PANEL</a>
+		<div class="menu-toggle"></div>
+
+		<nav>
+			<ul>
+				<li><a href="/admin/korisnici" >Korisnici</a></li>
+				<li><a href="/admin/stapovi">Stapovi</a></li>
+				<li><a href="/admin/akcije">Akcije</a></li>
+				<li><a href="/admin/blogovi">Blog</a></li>
+        <li id = "logOut"><a href = '#'>Odjavi se</a></li>
+			</ul>
+		</nav>
+  
+	</header>
+	
+    <div id="formaZaPitanja">
+				
+		
+                <div id="formaZaPitanja">
+                    <select id="selectAkcije">
+                        <option selected disabled>Izaberite Akciju</option>
+                     </select>
+                     <button type="submit" class="btn btn-primary" id="choseAkcije">Izaberite Akciju</button>
+                     
+                </div>
+
+            <form id="formaZaLabel">
+  
+              <label for="firstName">Amount</label>
+              <input type="text" id="amount"  name="First Name"  required/>
+              
+              <label for="select"><select id="type">
+                <option selected disabled >Izaberite tip akcije:</option>
+                <option >Novogodisnja Akcija</option>
+                <option >Bozicna Akcija</option>
+                <option >Vikend Akcija</option>
+                <option >Crni Petak</option>
+                <option >Rodjendan Firme</option>
+                <option >Tipska Akcija</option>
+             </select></label>
+              
+             <label for="email">Start Date</label>
+              <input type="email" id="startDate"  name="Email"  required/>
+              <label for="username">End Date</label>
+              <input type="text" id="endDate"  name="Username" required/>
+              
+              <label for="select"><select id="purpose">
+                <option selected disabled >Izaberite Svrhu Akcije</option>
+                <option >Planska akcija</option>
+                <option >Rasprodaja stare kolekcije</option>
+                <option >Nova prodavnica</option>
+             </select></label>
+
+              <label for="submit"></label>
+              <button type="submit" class="btn btn-primary" id="izmeniAkcije" disabled>Izmeni Akciju/button>
+              
+              
+              
+            </form>
+				
+        
+    
+    </div>
+	
+  
+</body></html>
